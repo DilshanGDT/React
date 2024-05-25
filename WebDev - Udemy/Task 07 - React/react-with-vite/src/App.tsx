@@ -1,7 +1,7 @@
 import Button from "./components/Button";
 import Alert from "./components/Alert";
 import { useState } from "react";
-import ListGroup from "./components/ListGroup";
+import ListGroup from "./components/ListGroup/index";
 
 function App() {
   const [alertVisible, setAlertVisibility] = useState(false);
